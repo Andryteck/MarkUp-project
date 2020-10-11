@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-header, footer, .home-page {
+header, footer, .services {
   position: relative;
   width: 100%;
 }
@@ -104,7 +104,7 @@ header, footer, .home-page {
 }
 .wrapper-navigation .search span {
   color: #2c4755;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 11px;
   font-weight: 400;
   font-style: normal;
@@ -118,9 +118,172 @@ header, footer, .home-page {
   background-repeat: no-repeat;
 }
 
-.home-page {
-  height: 100vh;
+.wrapper-lending {
   background-color: #c4a2e2;
+  height: 100%;
+  position: relative;
+}
+.wrapper-lending .world-map {
+  background-image: url("./assets/images/World_Map.png");
+  background-repeat: no-repeat;
+  width: 930px;
+  height: 435px;
+  margin: auto;
+  padding: 0 350px;
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  left: 24%;
+}
+.wrapper-lending .wrapper {
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+.wrapper-lending .wrapper .lending-info {
+  width: 375px;
+}
+.wrapper-lending .wrapper .lending-info h2 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 41px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+.wrapper-lending .wrapper .lending-info .lending-info-title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+.wrapper-lending .wrapper .lending-info .lending-info-subtitle {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+.wrapper-lending .wrapper .lending-info div p {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 27px;
+  letter-spacing: -0.14px;
+}
+.wrapper-lending .wrapper .lending-info div p::before {
+  content: url("./assets/images/CheckMark.png");
+  margin-right: 5px;
+}
+.wrapper-lending .wrapper .lending-image {
+  position: relative;
+}
+.wrapper-lending .wrapper .lending-image .lending-image-left-server {
+  position: absolute;
+  z-index: 3;
+  top: 237px;
+  left: -497px;
+}
+.wrapper-lending .wrapper .lending-image .lending-image-middle-server {
+  position: absolute;
+  top: 189px;
+  right: 110px;
+  z-index: 5;
+}
+.wrapper-lending .wrapper .lending-image .lending-image-right-server {
+  position: absolute;
+  z-index: 3;
+  top: 237px;
+  left: -183px;
+}
+
+.clouds {
+  background-image: url("./assets/images/Clouds.png");
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 115px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.clouds img {
+  margin: auto;
+  z-index: 4;
+}
+
+.services {
+  padding: 55px 371px 45px;
+}
+.services h3 {
+  color: #2c4755;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: center;
+}
+.services > p {
+  color: #637988;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: center;
+  padding: 0 68px;
+}
+.services .services-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services .services-wrapper .service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 226px;
+  height: 249px;
+  margin-top: 45px;
+}
+.services .services-wrapper img {
+  margin-bottom: 10px;
+}
+.services .services-wrapper .service-title {
+  color: #2c4755;
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: center;
+}
+.services .services-wrapper .service-subtitle {
+  color: #637988;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  padding: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

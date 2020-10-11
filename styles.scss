@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 
-header, footer, .home-page {
+header, footer, .services {
   position: relative;
   width: 100%;
 }
+
 
 .wrapper-top {
   background-color: #c4a2e2;
@@ -63,11 +64,6 @@ header, footer, .home-page {
         list-style-type: none;
         text-align: center;
         width: 88px;
-        //position: relative;
-
-        //&:not(:first-child) a {
-        //  margin-left: 2.19em;
-        //}
 
         a {
           position: relative;
@@ -124,7 +120,7 @@ header, footer, .home-page {
 
     & span {
       color: #2c4755;
-      font-family: Roboto;
+      font-family: 'Roboto', sans-serif;
       font-size: 11px;
       font-weight: 400;
       font-style: normal;
@@ -141,7 +137,190 @@ header, footer, .home-page {
   }
 }
 
-.home-page {
-  height: 100vh;
+.wrapper-lending {
   background-color: #c4a2e2;
+  height: 100%;
+  position: relative;
+
+  & .world-map {
+    background-image: url("./assets/images/World_Map.png");
+    background-repeat: no-repeat;
+    width: 930px;
+    height: 435px;
+    margin: auto;
+    padding: 0 350px;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 24%;
+  }
+
+  & .wrapper {
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+
+    .lending-info {
+      width: 375px;
+
+      & h2 {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 41px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 27px;
+        margin-bottom: 0;
+      }
+
+      & .lending-info-title {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 27px;
+        margin-bottom: 0;
+      }
+
+      & .lending-info-subtitle {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 27px;
+        margin-bottom: 0;
+      }
+
+      & div p {
+        color: #ffffff;
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 27px;
+        letter-spacing: -0.14px;
+
+        &::before {
+          content: url("./assets/images/CheckMark.png");
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .lending-image {
+      position: relative;
+
+      .lending-image-left-server {
+        position: absolute;
+        z-index: 3;
+        top: 237px;
+        left: -497px;
+      }
+
+      .lending-image-middle-server {
+        position: absolute;
+        top: 189px;
+        right: 110px;
+        z-index: 5;
+      }
+
+      .lending-image-right-server {
+        position: absolute;
+        z-index: 3;
+        top: 237px;
+        left: -183px;
+      }
+    }
+  }
+}
+
+.clouds {
+  background-image: url("./assets/images/Clouds.png");
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 115px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  img {
+    margin: auto;
+    z-index: 4;
+  }
+}
+
+.services {
+  padding: 55px 371px 45px;
+
+  & h3 {
+    color: #2c4755;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  & > p {
+    color: #637988;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: center;
+    padding: 0 68px;
+  }
+
+  & .services-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .service {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 226px;
+      height: 249px;
+      margin-top: 45px;
+    }
+
+    & img {
+      margin-bottom: 10px;
+    }
+
+    & .service-title {
+      color: #2c4755;
+      font-family: Roboto, sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 27px;
+      text-align: center;
+    }
+
+    & .service-subtitle {
+      color: #637988;
+      font-family: Roboto, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      padding: 0;
+    }
+  }
 }
