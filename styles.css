@@ -44,6 +44,23 @@ h3 {
   padding: 0 331px;
 }
 
+.button {
+  width: 127px;
+  height: 33px;
+  border: 1px solid #41bdef;
+  background-image: linear-gradient(to top, #31a7de 0%, #41bdef 100%);
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: center;
+  margin-left: 17px;
+}
+
 .wrapper-navigation {
   z-index: 9999;
   padding-top: 16px;
@@ -357,21 +374,77 @@ h3 {
   right: 12px;
   top: 16px;
 }
-.domain-search .domain-search-wrapper .button {
-  width: 127px;
-  height: 33px;
-  border: 1px solid #41bdef;
-  background-image: linear-gradient(to top, #31a7de 0%, #41bdef 100%);
-  color: #ffffff;
+
+.packages {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.packages .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.packages .wrapper .price-table {
+  width: 218px;
+  height: 309px;
+  border: 2px solid #dae3e8;
+  border-radius: 8px;
+}
+.packages .wrapper .price-table div:first-child {
+  background-color: #56c3ef;
   border-radius: 4px;
+  position: relative;
+  width: 214px;
+  height: 166px;
+}
+.packages .wrapper .price-table div:first-child::before {
+  content: url("./assets/images/MapSmall.png");
+  position: absolute;
+  top: 26px;
+}
+.packages .wrapper .price-table div:first-child img:nth-child(1) {
+  position: absolute;
+  top: -48px;
+  left: 27%;
+}
+.packages .wrapper .price-table div:first-child img:nth-child(2) {
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  left: 57px;
+}
+.packages .wrapper .price-table div:first-child img:nth-child(3) {
+  position: absolute;
+  bottom: -1px;
+  z-index: 10;
+}
+.packages .wrapper .price-table div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.packages .wrapper .price-table div:last-child p {
+  color: #637988;
   font-family: Roboto, sans-serif;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 27px;
+  line-height: 22px;
   text-align: center;
-  margin-left: 17px;
+  margin: 0;
+}
+.packages .wrapper .price-table div:last-child p::before {
+  content: url("./assets/images/CheckMarkSmall.png");
+  margin-right: 5px;
+}
+.packages .wrapper .price-table div:last-child p:nth-child(2) {
+  margin-left: 26px;
+}
+.packages .wrapper .price-table div:last-child .button {
+  width: 94px;
+  height: 34px;
+  margin-top: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */
