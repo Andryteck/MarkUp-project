@@ -164,6 +164,7 @@ h3 {
   background-color: #c4a2e2;
   height: 100%;
   position: relative;
+  z-index: 1;
 }
 .wrapper-lending .world-map {
   background-image: url("./assets/images/World_Map.png");
@@ -472,6 +473,7 @@ h3 {
 
 .footer {
   background-color: #c4a2e2;
+  box-shadow: 0 6px 0 #3a1e5236 inset;
 }
 .footer .wrapper {
   display: flex;

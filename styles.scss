@@ -185,6 +185,7 @@ h3 {
   background-color: #c4a2e2;
   height: 100%;
   position: relative;
+  z-index: 1;
 
   & .world-map {
     background-image: url("./assets/images/World_Map.png");
@@ -537,6 +538,7 @@ h3 {
 
 .footer {
   background-color: #c4a2e2;
+  box-shadow: 0 6px 0 #3a1e5236 inset;
 
   & .wrapper {
     display: flex;
@@ -648,6 +650,7 @@ h3 {
         &:nth-child(4) {
           background-position: 75%;
         }
+
         &:nth-child(5) {
           background-position: 100%;
         }
