@@ -61,8 +61,24 @@ h3 {
   font-style: normal;
   letter-spacing: normal;
   line-height: 27px;
-  text-align: center;
-  margin-left: 17px;
+
+}
+
+.separator {
+  width: 1081px;
+  height: 67px;
+  margin: 0 auto;
+  background-image: url("./assets/images/Shadow.png");
+  background-repeat: no-repeat;
+
+  .shape {
+    width: 658px;
+    height: 2px;
+    background-color: #ffffff;
+    background-image: linear-gradient(to right, #ffffff 0%, #76828a 10%, #76828a 90%, #ffffff 100%);
+    opacity: 0.2;
+    margin: 0 auto;
+  }
 }
 
 .wrapper-navigation {
@@ -296,7 +312,7 @@ h3 {
     letter-spacing: normal;
     line-height: 27px;
     text-align: center;
-    padding: 0 24px;
+    padding: 0px 90px;
   }
 
 
@@ -344,23 +360,6 @@ h3 {
 }
 
 .domain-search {
-  & .separator {
-    width: 1081px;
-    height: 67px;
-    margin: 0 auto;
-    background-image: url("./assets/images/Shadow.png");
-    background-repeat: no-repeat;
-
-    .shape {
-      width: 658px;
-      height: 2px;
-      background-color: #ffffff;
-      background-image: linear-gradient(to right, #ffffff 0%, #76828a 10%, #76828a 90%, #ffffff 100%);
-      opacity: 0.2;
-      margin: 0 auto;
-    }
-  }
-
   & p {
     color: #637988;
     font-family: Roboto, sans-serif;
@@ -382,6 +381,10 @@ h3 {
     margin: 25px auto;
     display: flex;
     align-items: center;
+
+    .button {
+      margin-left: 17px;
+    }
 
     .domain-search-input {
       display: inline-block;
@@ -449,7 +452,7 @@ h3 {
         &::before {
           content: url("./assets/images/MapSmall.png");
           position: absolute;
-          top:26px
+          top: 26px
         }
       }
 
@@ -505,6 +508,29 @@ h3 {
           margin-top: 8px;
         }
       }
+    }
+  }
+}
+
+.custom-plans {
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+  & .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      color: #637988;
+      font-family: Roboto, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 27px;
+      text-align: center;
+      padding: 0px 94px;
     }
   }
 }
