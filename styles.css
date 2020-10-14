@@ -67,7 +67,7 @@ h3 {
   background-repeat: no-repeat;
 }
 .separator .shape {
-  width: 658px;
+  width: 800px;
   height: 2px;
   background-color: #ffffff;
   background-image: linear-gradient(to right, #ffffff 0%, #76828a 10%, #76828a 90%, #ffffff 100%);
@@ -195,6 +195,54 @@ h3 {
 .wrapper-title .clouds img {
   margin: auto;
   z-index: 4;
+}
+
+.advertise {
+  padding: 40px 0 50px 0;
+}
+.advertise .wrapper {
+  padding: 0 370px;
+}
+.advertise .wrapper > div:nth-child(1), .advertise .wrapper > div:nth-child(3), .advertise .wrapper > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.advertise .wrapper > div:nth-child(1) .advertise-info, .advertise .wrapper > div:nth-child(3) .advertise-info, .advertise .wrapper > div:last-child .advertise-info {
+  width: 375px;
+}
+.advertise .wrapper > div:nth-child(1) .advertise-info h2, .advertise .wrapper > div:nth-child(3) .advertise-info h2, .advertise .wrapper > div:last-child .advertise-info h2 {
+  color: #2c4755;
+  font-family: Roboto, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.38px;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.advertise .wrapper > div:nth-child(1) .advertise-info > p, .advertise .wrapper > div:nth-child(3) .advertise-info > p, .advertise .wrapper > div:last-child .advertise-info > p {
+  color: #2c4755;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 27px;
+  margin-bottom: 0;
+  letter-spacing: -0.14px;
+}
+.advertise .wrapper > div:nth-child(1) .advertise-info > div p, .advertise .wrapper > div:nth-child(3) .advertise-info > div p, .advertise .wrapper > div:last-child .advertise-info > div p {
+  color: #2c4755;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+}
+.advertise .wrapper > div:nth-child(1) .advertise-info > div p::before, .advertise .wrapper > div:nth-child(3) .advertise-info > div p::before, .advertise .wrapper > div:last-child .advertise-info > div p::before {
+  content: url("./assets/images/CheckMark.png");
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
