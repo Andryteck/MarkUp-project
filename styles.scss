@@ -152,31 +152,30 @@ h3 {
   }
 
   .search {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5px;
-    align-items: center;
-    width: 140px;
-    height: 35px;
-    border: 1px solid #c3d0d8;
-    border-radius: 4px;
-    background-color: #ffffff;
+    position: relative;
 
-    & span {
+    &::after {
+      content: url("./assets/images/Magnifier_Icon.png");
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: 9px;
+      right: 1px;
+    }
+
+    & input {
       color: #2c4755;
       font-family: 'Roboto', sans-serif;
       font-size: 11px;
       font-weight: 400;
       font-style: normal;
       letter-spacing: normal;
-    }
-
-    & a {
-      width: 17px;
-      height: 19px;
-      background-image: url(./assets/images/Magnifier_Icon.png);
-      background-position-y: center;
-      background-repeat: no-repeat;
+      padding: 0 5px;
+      width: 140px;
+      height: 35px;
+      border: 1px solid #c3d0d8;
+      border-radius: 4px;
+      background-color: #ffffff;
     }
   }
 }
