@@ -1,10 +1,28 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("assets/fonts/Roboto-Bold.ttf") format("ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("assets/fonts/Roboto-Regular.ttf") format("ttf");
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
 }
 
-header, footer, .advertise, footer {
+body {
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+header, footer, .advertise, .advantages, .custom-plans {
   position: relative;
   width: 100%;
+}
+
+header {
+  background-color: #c4a2e2;
 }
 
 h3 {
@@ -19,8 +37,9 @@ h3 {
 }
 
 .wrapper-top {
-  background-color: #c4a2e2;
-  padding: 12px 331px;
+  padding: 12px 47px;
+  width: 1080px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
@@ -39,9 +58,8 @@ h3 {
 }
 
 .wrapper {
-  width: 100%;
+  width: 1080px;
   margin: auto;
-  max-width: 1600px;
 }
 
 .button {
@@ -76,27 +94,21 @@ h3 {
 }
 
 .clouds {
-  background-image: url("./assets/images/Clouds.png");
-  width: 1600px;
-  height: 115px;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  margin: auto;
+  width: 100%;
 }
 .clouds img {
-  margin: auto;
-  z-index: 4;
+  object-fit: cover;
+}
+
+.nav {
+  background-image: linear-gradient(to top, #edf2f6 0%, #ffffff 100%);
+  box-shadow: 0 4px 2px rgba(51, 71, 82, 0.4);
+  position: relative;
 }
 
 .wrapper-navigation {
   z-index: 9999;
-  padding: 16px 331px 20px 331px;
-  font-weight: 700;
-  letter-spacing: -0.037em;
-  background-color: #ffffff;
-  background-image: linear-gradient(to top, #edf2f6 0%, #ffffff 100%);
-  box-shadow: 0 4px 2px rgba(51, 71, 82, 0.4);
+  padding: 16px 49px 20px 34px;
   display: flex;
   justify-content: space-between;
 }
@@ -106,7 +118,7 @@ h3 {
   white-space: nowrap;
 }
 .wrapper-navigation nav ul {
-  margin: 0;
+  margin: 0 0 0 90px;
 }
 .wrapper-navigation nav ul li {
   display: inline-block;
@@ -128,8 +140,8 @@ h3 {
   text-transform: uppercase;
 }
 .wrapper-navigation nav ul li a:hover {
-  padding: 26px 27px;
   /* Style for "Hover" */
+  padding: 26px 15px;
   cursor: default;
   width: 88px;
   height: 100%;
@@ -197,27 +209,12 @@ h3 {
   text-align: center;
   margin-bottom: 25px;
 }
-.wrapper-title .clouds {
-  background-image: url("./assets/images/Clouds.png");
-  width: 1600px;
-  height: 115px;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-.wrapper-title .clouds img {
-  margin: auto;
-  z-index: 4;
-}
 
 .advertise {
   padding: 40px 0 50px 0;
 }
 .advertise .wrapper {
-  width: 42%;
-  margin: auto;
-  box-sizing: border-box;
+  padding: 0px 115px;
 }
 .advertise .wrapper > div:nth-child(1), .advertise .wrapper > div:nth-child(3), .advertise .wrapper > div:last-child {
   display: flex;
@@ -273,15 +270,16 @@ h3 {
 }
 .advertise .wrapper .advertise-info h2 {
   color: #2c4755;
-  font-family: Roboto, sans-serif;
-  font-size: 38px;
   font-weight: 400;
-  font-style: normal;
+  font-size: 38px;
   letter-spacing: -0.38px;
   line-height: normal;
   margin-bottom: 0;
   margin-block-start: 0;
   margin-block-end: 0;
+}
+.advertise .wrapper .advertise-info h2 span {
+  font-weight: 700;
 }
 .advertise .wrapper .advertise-info > p {
   color: #2c4755;
@@ -312,7 +310,6 @@ h3 {
 }
 .advantages .wrapper h3 {
   color: #2c4755;
-  font-family: Roboto, sans-serif;
   font-size: 25px;
   font-weight: 500;
   font-style: normal;
@@ -330,34 +327,28 @@ h3 {
   margin: 16px 10px;
   flex: 1 0 30%;
   padding-left: 80px;
-  background: transparent no-repeat top left;
+  display: flex;
 }
-.advantages .wrapper .advantages-elements .modern-technology {
-  background-image: url("assets/images/_gear.png");
+.advantages .wrapper .advantages-elements .one-advantage .icon-shape {
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #31a7de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
 }
-.advantages .wrapper .advantages-elements .protected-servers {
-  background-image: url("assets/images/key.png");
-}
-.advantages .wrapper .advantages-elements .fully-secured {
-  background-image: url("assets/images/shield.png");
-}
-.advantages .wrapper .advantages-elements .call-for-support {
-  background-image: url("assets/images/phone.png");
-}
-.advantages .wrapper .advantages-elements .best-for-business {
-  background-image: url("assets/images/trophy.png");
-}
-.advantages .wrapper .advantages-elements .fully-support {
-  background-image: url("assets/images/circle-for-safety.png");
+.advantages .wrapper .advantages-elements .one-advantage .icon-shape img {
+  object-fit: cover;
 }
 .advantages .wrapper .advantages-elements h4 {
   color: #2c4755;
-  font-family: Roboto, sans-serif;
   font-size: 17px;
-  font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+  margin: 0;
 }
 .advantages .wrapper .advantages-elements p {
   color: #637988;
@@ -373,6 +364,7 @@ h3 {
 .custom-plans {
   padding-top: 30px;
   padding-bottom: 50px;
+  box-shadow: 0 5px 5px rgba(44, 71, 85, 0.3);
 }
 .custom-plans .wrapper {
   display: flex;
@@ -394,7 +386,6 @@ h3 {
 
 .footer {
   background-color: #c4a2e2;
-  box-shadow: 0 6px 0 #3a1e5236 inset;
 }
 .footer .wrapper {
   display: flex;
