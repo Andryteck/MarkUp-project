@@ -1,10 +1,31 @@
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('assets/fonts/Roboto-Bold.ttf') format('ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('assets/fonts/Roboto-Regular.ttf') format('ttf');
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
 }
 
-header, footer, .services, footer {
+body {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+header, footer, .advertise, .advantages, .custom-plans {
   position: relative;
   width: 100%;
+}
+
+header {
+  background-color: #c4a2e2;
 }
 
 h3 {
@@ -20,8 +41,9 @@ h3 {
 }
 
 .wrapper-top {
-  background-color: #c4a2e2;
-  padding: 12px 331px;
+  padding: 12px 47px;
+  width: 1080px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
@@ -43,9 +65,8 @@ h3 {
 }
 
 .wrapper {
-  width: 100%;
+  width: 1080px;
   margin: auto;
-  padding: 0 331px;
 }
 
 .button {
@@ -72,7 +93,7 @@ h3 {
   background-repeat: no-repeat;
 
   .shape {
-    width: 658px;
+    width: 800px;
     height: 2px;
     background-color: #ffffff;
     background-image: linear-gradient(to right, #ffffff 0%, #76828a 10%, #76828a 90%, #ffffff 100%);
@@ -81,15 +102,23 @@ h3 {
   }
 }
 
-.wrapper-navigation {
-  z-index: 9999;
-  padding-top: 16px;
-  padding-bottom: 20px;
-  font-weight: 700;
-  letter-spacing: -0.037em;
-  background-color: #ffffff;
+.clouds {
+  width: 100%;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.nav {
   background-image: linear-gradient(to top, #edf2f6 0%, #ffffff 100%);
   box-shadow: 0 4px 2px rgba(51, 71, 82, 0.4);
+  position: relative;
+}
+
+.wrapper-navigation {
+  z-index: 9999;
+  padding: 16px 49px 20px 34px;
   display: flex;
   justify-content: space-between;
 
@@ -100,8 +129,7 @@ h3 {
     white-space: nowrap;
 
     ul {
-      margin: 0;
-
+      margin: 0 0 0 90px;
 
       li {
         display: inline-block;
@@ -123,8 +151,8 @@ h3 {
           text-transform: uppercase;
 
           &:hover {
-            padding: 26px 27px;
             /* Style for "Hover" */
+            padding: 26px 15px;
             cursor: default;
             width: 88px;
             height: 100%;
@@ -177,6 +205,34 @@ h3 {
       border-radius: 4px;
       background-color: #ffffff;
     }
+  }
+}
+
+.wrapper-title {
+  background-color: #c4a2e2;
+  padding-top: 24px;
+
+  & h2 {
+    color: #2c4755;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  & p {
+    color: #2c4755;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 25px;
   }
 }
 
@@ -283,33 +339,13 @@ h3 {
   }
 }
 
-.clouds {
-  background-image: url("./assets/images/Clouds.png");
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-  width: 1600px;
-  height: 115px;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-
-  img {
-    margin: auto;
-    z-index: 4;
-  }
-}
-
 .services {
   padding: 55px 371px 45px;
 
   & > p {
     color: #637988;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 27px;
     text-align: center;
     padding: 0px 90px;
