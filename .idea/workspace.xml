@@ -19,7 +19,58 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="fix" />
+    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="fix">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Arrow_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CheckMark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CheckMarkSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CloudsAll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CloudsSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Envelope_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Headpphone_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Left_Server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Magnifier_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/MapSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Right_Server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ServerSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Social_Icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/World_Map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/_gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/black-server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/circle-for-safety.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/darts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/gear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/right-server-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/safety-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/trophy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +92,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,12 +103,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,6 +125,7 @@
       <workItem from="1602422317608" duration="14073000" />
       <workItem from="1602500619045" duration="14643000" />
       <workItem from="1602684836351" duration="30570000" />
+      <workItem from="1602877856342" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="feat:add header">
       <created>1602361900195</created>
@@ -228,10 +281,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="235" key="EditFileWatcherDialog" timestamp="1602422080622">
+    <state x="372" y="235" key="EditFileWatcherDialog" timestamp="1602878061920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="372" y="235" key="EditFileWatcherDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602422080622" />
+    <state x="372" y="235" key="EditFileWatcherDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602878061920" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1602876871063">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
