@@ -19,57 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Arrow_Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Bubble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CheckMark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CheckMarkSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CloudsAll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CloudsSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Envelope_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Headpphone_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Left_Server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Magnifier_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/MapSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Right_Server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/ServerSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Social_Icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/World_Map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/_gear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/black-server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/circle-for-safety.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/darts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/right-server-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/safety-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/shield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/trophy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="feat: add header and footer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +79,8 @@
       <workItem from="1602422317608" duration="14073000" />
       <workItem from="1602500619045" duration="14643000" />
       <workItem from="1602684836351" duration="30570000" />
-      <workItem from="1602877856342" duration="323000" />
+      <workItem from="1602877856342" duration="1031000" />
+      <workItem from="1603029569933" duration="5401000" />
     </task>
     <task id="LOCAL-00001" summary="feat:add header">
       <created>1602361900195</created>
@@ -246,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602876868957</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: add header and footer">
+      <created>1602878268850</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602878268850</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add header and footer">
+      <created>1602878358517</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602878358517</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,17 +247,18 @@
     <MESSAGE value="feat: add advantages and footer" />
     <MESSAGE value="fix: advantages and footer" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="feat: add header and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add header and footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="372" y="235" key="EditFileWatcherDialog" timestamp="1602878061920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="372" y="235" key="EditFileWatcherDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602878061920" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1602876871063">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1602878361367">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602876871063" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602878361367" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1602863992534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
