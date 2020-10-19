@@ -56,10 +56,6 @@ table {
   border-collapse: separate;
   border-spacing: 0 0.2em;
 
-  tr {
-    margin-bottom: 5px;
-  }
-
   tr:nth-child(1) td:nth-child(1), tr:nth-child(2) td:nth-child(1), tr:nth-child(3) td:nth-child(1), tr:nth-child(4) td:nth-child(1), tr:nth-child(5) td:nth-child(1), tr:nth-child(6) td:nth-child(1), tr:nth-child(7) td:nth-child(1), tr:nth-child(8) td:nth-child(1), tr:nth-child(9) td:nth-child(1) {
     width: 301px;
     height: 31px;
@@ -70,10 +66,6 @@ table {
   tr:nth-child(1) td:nth-child(1), tr:nth-child(1) td:nth-child(2), tr:nth-child(1) td:nth-child(3), tr:nth-child(1) td:nth-child(4), tr:nth-child(1) td:nth-child(5), tr:nth-child(1) td:nth-child(6) {
     color: #00c7fc;
     font-weight: 500;
-  }
-
-  tr:nth-child(5) td:nth-child(2):before, tr:nth-child(5) td:nth-child(3):before, tr:nth-child(5) td:nth-child(4):before, tr:nth-child(5) td:nth-child(4):before, tr:nth-child(5) td:nth-child(5):before, tr:nth-child(6) td:nth-child(2):before, tr:nth-child(6) td:nth-child(3):before, tr:nth-child(6) td:nth-child(4):before, tr:nth-child(6) td:nth-child(5):before, tr:nth-child(7) td:nth-child(3):before, tr:nth-child(7) td:nth-child(4):before, tr:nth-child(7) td:nth-child(5):before, tr:nth-child(8) td:nth-child(4):before, tr:nth-child(8) td:nth-child(5):before, tr:nth-child(9) td:nth-child(5):before {
-    content: url("./assets/images/CheckMark.png");
   }
 
   td {
@@ -365,8 +357,19 @@ table {
         }
       }
     }
+
+    .table {
+      tr:nth-child(2) td:nth-child(3):before, tr:nth-child(2) td:nth-child(4):before, tr:nth-child(2) td:nth-child(5):before, tr:nth-child(4) td:nth-child(5):before, tr:nth-child(5) td:nth-child(5):before, tr:nth-child(6) td:nth-child(5):before, tr:nth-child(8) td:nth-child(2):before, tr:nth-child(8) td:nth-child(3):before, tr:nth-child(9) td:nth-child(2):before, tr:nth-child(9) td:nth-child(3):before, tr:nth-child(9) td:nth-child(4):before, tr:nth-child(9) td:nth-child(5):before {
+        content: url("./assets/images/CheckMark.png");
+      }
+
+      tr:nth-child(3) td:nth-child(2):before, tr:nth-child(3) td:nth-child(3):before, tr:nth-child(7) td:nth-child(2):before, tr:nth-child(7) td:nth-child(3):before {
+        content: url("./assets/images/Rejected_Mark.png");
+      }
+    }
   }
 }
+
 
 .packages {
   padding-bottom: 50px;
@@ -464,6 +467,14 @@ table {
   & p {
     text-align: center;
     margin-bottom: 25px;
+  }
+
+  & .wrapper {
+    table {
+      tr:nth-child(5) td:nth-child(2):before, tr:nth-child(5) td:nth-child(3):before, tr:nth-child(5) td:nth-child(4):before, tr:nth-child(5) td:nth-child(4):before, tr:nth-child(5) td:nth-child(5):before, tr:nth-child(6) td:nth-child(2):before, tr:nth-child(6) td:nth-child(3):before, tr:nth-child(6) td:nth-child(4):before, tr:nth-child(6) td:nth-child(5):before, tr:nth-child(7) td:nth-child(3):before, tr:nth-child(7) td:nth-child(4):before, tr:nth-child(7) td:nth-child(5):before, tr:nth-child(8) td:nth-child(4):before, tr:nth-child(8) td:nth-child(5):before, tr:nth-child(9) td:nth-child(5):before {
+        content: url("./assets/images/CheckMark.png");
+      }
+    }
   }
 }
 
