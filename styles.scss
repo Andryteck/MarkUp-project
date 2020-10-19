@@ -41,31 +41,33 @@ h3 {
 }
 
 .wrapper-top {
-  padding: 12px 47px;
-  width: 1080px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
+  max-width: 940px;
 
-  & .info-wrapper span {
-    margin-left: 0.2em;
-  }
+  > div {
+    padding: 12px 10px;
+    display: flex;
+    justify-content: space-between;
 
-  & .info-wrapper .info-wrapper__envelope {
-    margin-left: 1.5em;
-  }
 
-  & .language-wrapper span, & .language-wrapper img {
-    margin-left: 0.2em;
+    & .info-wrapper span {
+      margin-left: 0.2em;
+    }
+
+    & .info-wrapper .info-wrapper__envelope {
+      margin-left: 1.5em;
+    }
+
+    & .language-wrapper span, & .language-wrapper img {
+      margin-left: 0.2em;
+    }
   }
 }
 
 .wrapper {
-  width: 1080px;
   margin: auto;
 }
 
@@ -89,24 +91,20 @@ h3 {
   width: 1081px;
   height: 67px;
   margin: 0 auto;
-  background-image: url("./assets/images/Shadow.png");
+  background-image: url("./assets/images/Separator.png");
   background-repeat: no-repeat;
 
-  .shape {
-    width: 800px;
-    height: 2px;
-    background-color: #ffffff;
-    background-image: linear-gradient(to right, #ffffff 0%, #76828a 10%, #76828a 90%, #ffffff 100%);
-    opacity: 0.2;
-    margin: 0 auto;
-  }
 }
 
 .clouds {
   width: 100%;
+  display: flex;
+  align-items: flex-end;
 
   img {
     object-fit: cover;
+    width: 100%;
+    margin-bottom: -1px;
   }
 }
 
@@ -118,10 +116,10 @@ h3 {
 
 .wrapper-navigation {
   z-index: 9999;
-  padding: 16px 49px 20px 34px;
+  padding: 16px 12px 20px 5px;
   display: flex;
   justify-content: space-between;
-
+  max-width: 940px;
 
   & nav {
     margin-top: 9px;
@@ -259,6 +257,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     z-index: 10;
+    max-width: 940px;
 
     .lending-info {
       width: 375px;
@@ -471,6 +470,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 940px;
 
     .price-table {
       width: 218px;
@@ -551,6 +551,8 @@ h3 {
 .custom-plans {
   padding-top: 30px;
   padding-bottom: 50px;
+  box-shadow: 0 5px 5px rgba(44, 71, 85, 0.3);
+  z-index: 1;
 
   & .wrapper {
     display: flex;
@@ -573,11 +575,11 @@ h3 {
 
 .footer {
   background-color: #c4a2e2;
-  box-shadow: 0 6px 0 #3a1e5236 inset;
 
   & .wrapper {
     display: flex;
     justify-content: space-between;
+    width: 75%;
   }
 
   & .wrapper > div {
