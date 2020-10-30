@@ -191,8 +191,18 @@ h3 {
   justify-content: space-between;
   padding: 12px 10px;
 }
+@media (max-width: 490px) {
+  .wrapper-top > div {
+    font-size: 10px;
+  }
+}
 .wrapper-top > div .info-wrapper span {
   margin-left: 0.2em;
+}
+@media (max-width: 340px) {
+  .wrapper-top > div .info-wrapper span {
+    display: none;
+  }
 }
 .wrapper-top > div .info-wrapper .info-wrapper__envelope {
   margin-left: 1.5em;
@@ -380,7 +390,6 @@ h3 {
 .advertise .wrapper > div:nth-child(1), .advertise .wrapper > div:nth-child(3), .advertise .wrapper > div:last-child {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   padding-top: 30px;
   padding-bottom: 30px;
 }
