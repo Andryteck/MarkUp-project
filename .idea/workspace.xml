@@ -19,66 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="feat: add adaptive">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Arrow_Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Autor_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Bubble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Bubble_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Calendar_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CheckMark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CheckMarkSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CloudsAll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/CloudsSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Envelope_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Headpphone_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Left_Server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Magnifier_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/MapSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Price4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Right_Server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Separator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/ServerSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Social_Icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/World_Map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/_gear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/black-server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/burger-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/circle-for-safety.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/darts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/post.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/right-server-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/safety-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/shield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/trophy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="feat: add form">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +85,7 @@
       <workItem from="1603136916836" duration="4643000" />
       <workItem from="1603267944369" duration="3712000" />
       <workItem from="1603988747710" duration="12865000" />
-      <workItem from="1604049014364" duration="11271000" />
+      <workItem from="1604049014364" duration="12853000" />
     </task>
     <task id="LOCAL-00001" summary="feat:add header">
       <created>1602361900195</created>
@@ -309,7 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604051371478</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: add form">
+      <created>1604062567618</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604062567619</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: add form">
+      <created>1604062600219</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604062600219</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: add form">
+      <created>1604062610181</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604062610181</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +314,8 @@
     <MESSAGE value="fix:" />
     <MESSAGE value="fix" />
     <MESSAGE value="feat: add adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add adaptive" />
+    <MESSAGE value="feat: add form" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604001900811">
@@ -358,11 +326,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="372" y="235" key="EditFileWatcherDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1603137073780" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1604051373440">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1604062601998">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1604004844139" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-756.1920.1080@0.0.1440.900" timestamp="1604051373440" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-756.1920.1080@0.0.1440.900" timestamp="1604062601998" />
     <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.825/-1920.-349.1920.1057@0.23.1440.825" timestamp="1603110993439" />
     <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1603269443677">
       <screen x="0" y="0" width="1440" height="900" />
