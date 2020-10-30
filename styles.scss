@@ -53,26 +53,33 @@ p {
 }
 
 .wrapper-top {
-  padding: 12px 5px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-family: 'Roboto-Bold', sans-serif;
   max-width: 940px;
 
-  & .info-wrapper span {
-    margin-left: 0.2em;
-  }
+  > div {
+    padding: 12px 10px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 490px) {
+      font-size: 10px;
+    }
 
-  & .info-wrapper .info-wrapper__envelope {
-    margin-left: 1.5em;
-  }
+    & .info-wrapper span {
+      margin-left: 0.2em;
+      @media (max-width: 440px) {
+        display: none;
+      }
+    }
 
-  & .language-wrapper span, & .language-wrapper img {
-    margin-left: 0.2em;
+    & .info-wrapper .info-wrapper__envelope {
+      margin-left: 1.5em;
+    }
+
+    & .language-wrapper span, & .language-wrapper img {
+      margin-left: 0.2em;
+    }
   }
 }
 
