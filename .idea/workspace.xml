@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="feat: add adaptive">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Arrow_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Autor_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Bubble_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Calendar_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CheckMark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CheckMarkSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CloudsAll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/CloudsSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Envelope_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Headpphone_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Left_Server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Magnifier_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/MapSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Mid_Server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Price4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Right_Server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ServerSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Social_Icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/World_Map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/_gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/black-server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/burger-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/circle-for-safety.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/darts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/gear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/right-server-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/safety-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/trophy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ihZZkhAqNqWNB9QMIM0w2tv1wr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="" />
+      <created>1602361843201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602361843201</updated>
+      <workItem from="1602361844739" duration="68000" />
+      <workItem from="1602362247917" duration="3182000" />
+      <workItem from="1602422317608" duration="14073000" />
+      <workItem from="1602500619045" duration="14643000" />
+      <workItem from="1602684836351" duration="29573000" />
+      <workItem from="1603136916836" duration="4643000" />
+      <workItem from="1603267944369" duration="3712000" />
+      <workItem from="1603988747710" duration="12865000" />
+      <workItem from="1604049014364" duration="11271000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat:add header">
+      <created>1602361900195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602361900195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:add services">
+      <created>1602432056716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602432056719</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:add packages">
+      <created>1602518636595</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602518636595</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat:add custom-plans">
+      <created>1602519761032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602519761032</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat:footer">
+      <created>1602532191230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602532191230</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix:footer">
+      <created>1602534239310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602534239310</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix search input">
+      <created>1602687362790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602687362790</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add header">
+      <created>1602688065025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602688065025</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add header">
+      <created>1602688116910</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602688116910</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add header">
+      <created>1602688204450</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602688204450</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add header">
+      <created>1602688330205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602688330205</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add advertise">
+      <created>1602695063624</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602695063624</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: advertise">
+      <created>1602707150846</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602707150846</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add advantages and footer">
+      <created>1602846658046</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602846658047</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: domain table">
+      <created>1603109780410</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603109780410</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix:">
+      <created>1603110991639</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603110991639</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add blog">
+      <created>1603138289352</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603138289352</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add archives and categories">
+      <created>1603183711950</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603183711950</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add team">
+      <created>1603272458375</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603272458375</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: add burger">
+      <created>1604004502967</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604004502968</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix:">
+      <created>1604004841849</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604004841849</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix">
+      <created>1604049194271</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604049194271</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix">
+      <created>1604049207738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604049207738</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: add adaptive">
+      <created>1604051371478</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604051371478</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:add header" />
+    <MESSAGE value="feat:add services" />
+    <MESSAGE value="feat:add packages" />
+    <MESSAGE value="feat:add custom-plans" />
+    <MESSAGE value="feat:footer" />
+    <MESSAGE value="fix:footer" />
+    <MESSAGE value="fix search input" />
+    <MESSAGE value="feat: add header" />
+    <MESSAGE value="feat: add advertise" />
+    <MESSAGE value="fix: advertise" />
+    <MESSAGE value="feat: add advantages and footer" />
+    <MESSAGE value="fix: domain table" />
+    <MESSAGE value="feat: add blog" />
+    <MESSAGE value="feat: add archives and categories" />
+    <MESSAGE value="feat: add team" />
+    <MESSAGE value="feat: add burger" />
+    <MESSAGE value="fix:" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="feat: add adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add adaptive" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604001900811">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1604001900811" />
+    <state x="372" y="235" key="EditFileWatcherDialog" timestamp="1603137073780">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="372" y="235" key="EditFileWatcherDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1603137073780" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1604051373440">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1604004844139" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-756.1920.1080@0.0.1440.900" timestamp="1604051373440" />
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.825/-1920.-349.1920.1057@0.23.1440.825" timestamp="1603110993439" />
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1603269443677">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1603269443677" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603994086102">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1603994086102" />
+  </component>
+</project>
