@@ -84,6 +84,11 @@ h3 {
   background-image: url("./assets/images/Separator.png");
   background-repeat: no-repeat;
 }
+@media (max-width: 930px) {
+  .separator {
+    display: none;
+  }
+}
 
 .clouds {
   width: 100%;
@@ -228,8 +233,19 @@ h3 {
 .wrapper-lending .wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   z-index: 10;
   max-width: 940px;
+}
+@media (max-width: 980px) {
+  .wrapper-lending .wrapper {
+    max-width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper-lending .wrapper {
+    max-width: 454px;
+  }
 }
 .wrapper-lending .wrapper .lending-info {
   width: 375px;
@@ -280,6 +296,16 @@ h3 {
 .wrapper-lending .wrapper .lending-image {
   position: relative;
 }
+@media (max-width: 980px) {
+  .wrapper-lending .wrapper .lending-image {
+    position: static;
+  }
+}
+@media (max-width: 530px) {
+  .wrapper-lending .wrapper .lending-image {
+    display: none;
+  }
+}
 .wrapper-lending .wrapper .lending-image .lending-image-left-server {
   position: absolute;
   z-index: 3;
@@ -292,6 +318,11 @@ h3 {
   right: 110px;
   z-index: 5;
 }
+@media (max-width: 690px) {
+  .wrapper-lending .wrapper .lending-image .lending-image-middle-server {
+    width: 170px;
+  }
+}
 .wrapper-lending .wrapper .lending-image .lending-image-right-server {
   position: absolute;
   z-index: 3;
@@ -300,7 +331,9 @@ h3 {
 }
 
 .services {
-  padding: 55px 371px 45px;
+  padding: 55px 0px 45px;
+  max-width: 940px;
+  margin: 0 auto;
 }
 .services > p {
   color: #637988;
@@ -315,6 +348,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media (max-width: 675px) {
+  .services .services-wrapper {
+    justify-content: center;
+  }
 }
 .services .services-wrapper .service {
   display: flex;
@@ -369,6 +407,11 @@ h3 {
   display: flex;
   align-items: center;
 }
+@media (max-width: 670px) {
+  .domain-search .domain-search-wrapper {
+    width: 80%;
+  }
+}
 .domain-search .domain-search-wrapper .button {
   margin-left: 17px;
 }
@@ -417,11 +460,21 @@ h3 {
   flex-wrap: wrap;
   max-width: 940px;
 }
+@media (max-width: 940px) {
+  .packages .wrapper {
+    justify-content: center;
+  }
+}
 .packages .wrapper .price-table {
   width: 218px;
   height: 309px;
   border: 2px solid #dae3e8;
   border-radius: 8px;
+}
+@media (max-width: 940px) {
+  .packages .wrapper .price-table {
+    margin-top: 60px;
+  }
 }
 .packages .wrapper .price-table div:first-child {
   background-color: #56c3ef;
