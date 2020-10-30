@@ -99,6 +99,9 @@ p {
 
     & .info-wrapper span {
       margin-left: 0.2em;
+      @media (max-width: 440px) {
+        display: none;
+      }
     }
 
     & .info-wrapper .info-wrapper__envelope {
