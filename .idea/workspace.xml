@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f8f3104-49c1-4bc4-a83f-70bcf8903a6f" name="Default Changelist" comment="feat: adaptive">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="feat: adaptive" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Domain" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,16 +43,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -68,7 +63,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0f8f3104-49c1-4bc4-a83f-70bcf8903a6f" name="Default Changelist" comment="fix: domain table" />
+      <changelist id="36d6cb3a-8ea0-468a-b67d-8564166288fc" name="Default Changelist" comment="" />
       <created>1602361843201</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -77,10 +72,7 @@
       <workItem from="1602362247917" duration="3182000" />
       <workItem from="1602422317608" duration="14073000" />
       <workItem from="1602500619045" duration="14643000" />
-      <workItem from="1602684836351" duration="30570000" />
-      <workItem from="1602877856342" duration="1031000" />
-      <workItem from="1603029569933" duration="5401000" />
-      <workItem from="1603107277750" duration="1569000" />
+      <workItem from="1602684836351" duration="29573000" />
     </task>
     <task id="LOCAL-00001" summary="feat:add header">
       <created>1602361900195</created>
@@ -180,42 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602846658047</updated>
     </task>
-    <task id="LOCAL-00015" summary="fix: advantages and footer">
-      <created>1602875901981</created>
+    <task id="LOCAL-00015" summary="feat: adaptive">
+      <created>1604069024557</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1602875901981</updated>
+      <updated>1604069024557</updated>
     </task>
-    <task id="LOCAL-00016" summary="fix: advantages and footer">
-      <created>1602876007291</created>
+    <task id="LOCAL-00016" summary="feat: adaptive">
+      <created>1604069114412</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1602876007291</updated>
+      <updated>1604069114412</updated>
     </task>
-    <task id="LOCAL-00017" summary="fix">
-      <created>1602876868957</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1602876868957</updated>
-    </task>
-    <task id="LOCAL-00018" summary="feat: add header and footer">
-      <created>1602878268850</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1602878268850</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat: add header and footer">
-      <created>1602878358517</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1602878358517</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,20 +216,19 @@
     <MESSAGE value="feat: add advertise" />
     <MESSAGE value="fix: advertise" />
     <MESSAGE value="feat: add advantages and footer" />
-    <MESSAGE value="fix: advantages and footer" />
-    <MESSAGE value="fix" />
-    <MESSAGE value="feat: add header and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add header and footer" />
+    <MESSAGE value="feat: adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adaptive" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="235" key="EditFileWatcherDialog" timestamp="1602878061920">
+    <state x="372" y="235" key="EditFileWatcherDialog" timestamp="1602422080622">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="372" y="235" key="EditFileWatcherDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602878061920" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1602878361367">
+    <state x="372" y="235" key="EditFileWatcherDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602422080622" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1604069120920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602878361367" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602846660690" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-756.1920.1080@0.0.1440.900" timestamp="1604069120920" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1602863992534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
