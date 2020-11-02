@@ -68,7 +68,7 @@ p {
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 9999999;
 }
 
 /* add "hamburger" */
@@ -107,6 +107,16 @@ p {
   background-color: #2D303A;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
   z-index: 9999;
+}
+.menu__box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100vw - 278px);
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
 }
 
 /* menu elements */
@@ -204,6 +214,11 @@ p {
 }
 .wrapper-top > div .info-wrapper span {
   margin-left: 0.2em;
+}
+@media (max-width: 440px) {
+  .wrapper-top > div .info-wrapper span {
+    display: none;
+  }
 }
 .wrapper-top > div .info-wrapper .info-wrapper__envelope {
   margin-left: 1.5em;
@@ -398,7 +413,8 @@ p {
 @media (max-width: 930px) {
   .footer .wrapper {
     width: 100%;
-    padding-left: 10px;
+    padding-left: 15px;
+    flex-direction: column;
   }
 }
 .footer .wrapper > div {
@@ -560,6 +576,8 @@ p {
   .advertise .wrapper .advertise-info {
     margin-top: 25px;
     height: 250px;
+    width: 100%;
+    padding: 0 20px;
   }
 }
 .advertise .wrapper .advertise-info h2 {
@@ -680,6 +698,7 @@ p {
   width: 220px;
   background-color: #4ab1e1;
   border-radius: 6px;
+  border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -688,6 +707,11 @@ p {
   .team .wrapper .team-wrapper .team-item {
     margin-top: 40px;
   }
+}
+.team .wrapper .team-wrapper .team-item div {
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 .team .wrapper .team-wrapper .team-item div img {
   margin-bottom: -6px;
