@@ -20,7 +20,7 @@ body {
   overflow-x: hidden;
 }
 
-header, footer, .custom-plans, .blog {
+header, footer, .contact-form {
   position: relative;
   width: 100%;
 }
@@ -272,7 +272,7 @@ p {
 }
 
 .separator {
-  width: 1081px;
+  width: 100%;
   height: 67px;
   margin: 0 auto;
   background-image: url("./assets/images/Separator.png");
@@ -483,6 +483,8 @@ p {
 }
 
 .contact-map {
+  width: 100%;
+
   .wrapper {
     max-width: 940px;
     position: relative;
@@ -492,11 +494,97 @@ p {
       background-color: white;
     }
   }
+
+  img {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 .contact-form {
+  padding: 40px 0;
+  box-shadow: 0 5px 5px rgba(44, 71, 85, 0.3);
+  z-index: 1;
 
+  .wrapper {
+    max-width: 940px;
+    position: relative;
+    padding: 0 5px;
+
+    .wrapper-title {
+      background-color: white;
+    }
+
+    .commit-form {
+      width: 780px;
+      margin: 0 auto;
+      form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        label {
+          font-size: 15px;
+          color: #597984;
+          font-family: "Roboto-Regular", sans-serif;
+          margin: 10px 0;
+
+        }
+
+        .wrap-input {
+          width: calc((100% - 30px) / 2);
+          input {
+            display: block;
+            padding: 12px 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            border: none;
+            border-radius: 5px;
+            background-color: #edf2f6;
+            color: #31a7de;
+
+            input[placeholder] {
+              font-size: 15px;
+              color: #c3d0d8;
+            }
+          }
+        }
+
+        .wrap-textarea {
+          textarea {
+            padding: 11px 15px 13px 14px;
+            margin-top: 5px;
+            margin-bottom: 14px;
+            background-color: #edf2f6;
+            font-size: 12px;
+            border: none;
+            width: 780px;
+            @media (max-width: 835px) {
+              width: 100%;
+            }
+          }
+          label {
+            margin-top: 20px;
+          }
+        }
+
+        .wrap-btn {
+          .button {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
 }
+
 
 .footer {
   background-color: #c4a2e2;
