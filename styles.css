@@ -245,7 +245,7 @@ p {
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 99999999999;
 }
 
 /* add "hamburger" */
@@ -283,7 +283,17 @@ p {
   text-align: center;
   background-color: #2D303A;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
+  z-index: 999999;
+}
+.menu__box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100vw - 278px);
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
 }
 
 /* menu elements */
@@ -400,14 +410,11 @@ p {
   justify-content: space-between;
   width: 75%;
 }
-@media (max-width: 760px) {
+@media (max-width: 930px) {
   .footer .wrapper {
     width: 100%;
-  }
-}
-@media (max-width: 450px) {
-  .footer .wrapper {
-    padding: 0 10px;
+    padding-left: 15px;
+    flex-direction: column;
   }
 }
 .footer .wrapper > div {
