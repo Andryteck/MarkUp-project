@@ -104,6 +104,7 @@ h3 {
   object-fit: cover;
   width: 100%;
   margin-bottom: -1px;
+  z-index: 3;
 }
 
 .nav {
@@ -254,7 +255,7 @@ h3 {
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 99999999999;
 }
 
 /* add "hamburger" */
@@ -293,6 +294,16 @@ h3 {
   background-color: #2D303A;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
   z-index: 9999;
+}
+.menu__box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100vw - 278px);
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
 }
 
 /* menu elements */
@@ -378,26 +389,28 @@ h3 {
 .wrapper-lending {
   background-color: #c4a2e2;
   height: 100%;
-  position: relative;
   z-index: 1;
 }
 .wrapper-lending .world-map {
   background-image: url("./assets/images/World_Map.png");
   background-repeat: no-repeat;
-  width: 930px;
+  width: 100%;
   height: 435px;
   margin: auto;
-  padding: 0 350px;
   z-index: 1;
   position: absolute;
   top: 30px;
-  left: 24%;
+  left: 10%;
 }
 @media (max-width: 1200px) {
   .wrapper-lending .world-map {
     margin: 0;
     padding: 0;
-    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper-lending .world-map {
+    display: none;
   }
 }
 .wrapper-lending .wrapper {
@@ -406,6 +419,7 @@ h3 {
   flex-wrap: wrap;
   z-index: 10;
   max-width: 940px;
+  position: relative;
 }
 @media (max-width: 980px) {
   .wrapper-lending .wrapper {
@@ -414,7 +428,7 @@ h3 {
 }
 @media (max-width: 500px) {
   .wrapper-lending .wrapper {
-    max-width: 454px;
+    padding: 0px 25px;
   }
 }
 .wrapper-lending .wrapper .lending-info {
@@ -488,6 +502,11 @@ h3 {
   right: 110px;
   z-index: 5;
 }
+@media (max-width: 980px) {
+  .wrapper-lending .wrapper .lending-image .lending-image-middle-server {
+    display: none;
+  }
+}
 @media (max-width: 690px) {
   .wrapper-lending .wrapper .lending-image .lending-image-middle-server {
     width: 170px;
@@ -498,6 +517,12 @@ h3 {
   z-index: 3;
   top: 237px;
   left: -183px;
+}
+@media (max-width: 980px) {
+  .wrapper-lending .wrapper .lending-image .lending-image-right-server {
+    top: 253px;
+    left: 355px;
+  }
 }
 
 .services {
@@ -734,14 +759,11 @@ h3 {
   justify-content: space-between;
   width: 75%;
 }
-@media (max-width: 760px) {
+@media (max-width: 930px) {
   .footer .wrapper {
     width: 100%;
-  }
-}
-@media (max-width: 450px) {
-  .footer .wrapper {
-    padding: 0 10px;
+    padding-left: 15px;
+    flex-direction: column;
   }
 }
 .footer .wrapper > div {
