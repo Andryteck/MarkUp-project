@@ -518,26 +518,42 @@ p {
     .commit-form {
       width: 780px;
       margin: 0 auto;
+      @media (max-width: 800px) {
+        width: 100%;
+      }
+
       form {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-
+        @media (max-width: 800px) {
+          flex-direction: column;
+          align-items: center;
+          padding: 0 90px;
+        }
 
         label {
           font-size: 15px;
           color: #597984;
           font-family: "Roboto-Regular", sans-serif;
           margin: 10px 0;
+          position: relative;
 
+          &::after {
+            content: "*";
+            color: #31a7de;
+          }
         }
 
         .wrap-input {
           width: calc((100% - 30px) / 2);
+          @media (max-width: 800px) {
+           width: 100%;
+          }
           input {
             display: block;
-            padding: 12px 15px;
+            padding: 12px 5px;
             margin-top: 10px;
             margin-bottom: 10px;
             width: 100%;
@@ -558,24 +574,32 @@ p {
         }
 
         .wrap-textarea {
+          width: 100%;
           textarea {
-            padding: 11px 15px 13px 14px;
+            padding: 11px 5px 13px 14px;
             margin-top: 5px;
             margin-bottom: 14px;
             background-color: #edf2f6;
             font-size: 12px;
             border: none;
-            width: 780px;
-            @media (max-width: 835px) {
+            width: 100%;
+            @media (max-width: 800px) {
               width: 100%;
+              display: flex;
+              flex-direction: column;
             }
           }
+
           label {
             margin-top: 20px;
           }
         }
 
         .wrap-btn {
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+
           .button {
             margin-top: 20px;
           }

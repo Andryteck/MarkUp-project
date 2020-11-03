@@ -496,24 +496,46 @@ p {
   width: 780px;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .contact-form .wrapper .commit-form {
+    width: 100%;
+  }
+}
 .contact-form .wrapper .commit-form form {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 800px) {
+  .contact-form .wrapper .commit-form form {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 90px;
+  }
+}
 .contact-form .wrapper .commit-form form label {
   font-size: 15px;
   color: #597984;
   font-family: "Roboto-Regular", sans-serif;
   margin: 10px 0;
+  position: relative;
+}
+.contact-form .wrapper .commit-form form label::after {
+  content: "*";
+  color: #31a7de;
 }
 .contact-form .wrapper .commit-form form .wrap-input {
   width: calc((100% - 30px) / 2);
 }
+@media (max-width: 800px) {
+  .contact-form .wrapper .commit-form form .wrap-input {
+    width: 100%;
+  }
+}
 .contact-form .wrapper .commit-form form .wrap-input input {
   display: block;
-  padding: 12px 15px;
+  padding: 12px 5px;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
@@ -530,22 +552,32 @@ p {
   font-size: 15px;
   color: #c3d0d8;
 }
+.contact-form .wrapper .commit-form form .wrap-textarea {
+  width: 100%;
+}
 .contact-form .wrapper .commit-form form .wrap-textarea textarea {
-  padding: 11px 15px 13px 14px;
+  padding: 11px 5px 13px 14px;
   margin-top: 5px;
   margin-bottom: 14px;
   background-color: #edf2f6;
   font-size: 12px;
   border: none;
-  width: 780px;
+  width: 100%;
 }
-@media (max-width: 835px) {
+@media (max-width: 800px) {
   .contact-form .wrapper .commit-form form .wrap-textarea textarea {
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 .contact-form .wrapper .commit-form form .wrap-textarea label {
   margin-top: 20px;
+}
+.contact-form .wrapper .commit-form form .wrap-btn {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .contact-form .wrapper .commit-form form .wrap-btn .button {
   margin-top: 20px;
